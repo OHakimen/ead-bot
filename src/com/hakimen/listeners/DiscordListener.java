@@ -36,7 +36,7 @@ public class DiscordListener extends ListenerAdapter {
                     while(isRunning){
                     try {
                         Thread.sleep(updateInterval);
-                        EAD e = new EAD("05517614159","Lilica3461",true);
+                        EAD e = new EAD("05517614159","SIKE BOE",true);
                         e.Login();
                         List<CalendarEvent> events = e.getCurrentEventList();
                         e.driver.close();
